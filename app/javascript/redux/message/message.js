@@ -1,7 +1,7 @@
 import axios from 'axios'
-const FETCH_STARTED = 'Hello-rails-react/app/javascript/redux/message/FETCH_STARTED';
-const FETCH_SUCCEDED = 'Hello-rails-react/app/javascript/redux/message/FETCH_SUCCEDED';
-const FETCH_FAILED = 'Hello-rails-react/app/javascript/redux/message/FETCH_FAILED';
+const FETCH_STARTED = 'hello-rails-react/app/javascript/redux/message/FETCH_STARTED';
+const FETCH_SUCCEDED = 'hello-rails-react/app/javascript/redux/message/FETCH_SUCCEDED';
+const FETCH_FAILED = 'hello-rails-react/app/javascript/redux/message/FETCH_FAILED';
 const ROOT_PATH = '/api/v1'
 const MESSAGES_PATH = `${ROOT_PATH}/random-greeting`
 
@@ -33,7 +33,6 @@ export const getMessages = () => async (dispatch) => {
   const  data  = await fetchMessages()
   dispatch(getMessagesSuccess(data.data))
 }
-
 
 export default (state = initialstate, action ) => {
   switch (action.type) {

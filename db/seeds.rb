@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Message.create([{title: 'Hi my name is Rails'},{title: 'I am good with React'},{title: 'Do you ever wonder why... It is crazy'},
+    {title: 'React and Rails are crazy brothers'}, {title: 'I love this app'}])

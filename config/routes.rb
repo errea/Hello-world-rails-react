@@ -8,5 +8,5 @@ Rails.application.routes.draw do
     !req.xhr? && req.format.html?
   end
   end
-  root "messages#index"
+  root "static#index"
 end

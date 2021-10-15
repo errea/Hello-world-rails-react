@@ -99,8 +99,8 @@ $ cd <folder>
 ```
 
 ~~~bash
-$ git clone https://github.com/errea/React-Redux-BookStoreApp-Redo.git
-$ cd React-Redux-BookStore-App
+$ git clone https://github.com/errea/Hello-world-rails-react.git
+$ cd Hello-world-rails-react
 ~~~
 
 Run `bundle Install` to install the node modules and webpacker.
@@ -118,17 +118,15 @@ Run `yarn start`  opens on `http://localhost:8080/` in your browser.
 
 ## Project Structure
 
-    Book-Store-Redux Project
+    Hello-world-rails-react Project
     └── node_modules
     └── .github\workflows
         └── linters.yml
     /src
     |---/components
     |---/redux
-        |--- /books
-                | books.js
-        |--- /categories
-                | categories.js
+        |--- /message
+                | message.js
         | cofigureStore.js
     | index.js
     └── .eslintrc.json
